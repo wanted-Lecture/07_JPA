@@ -14,6 +14,10 @@ public class MemberService {
 
     public void registMember(MemberRegistDTO newMember) {
 
+        // 예외처리를 한다
+
+        // dto -> entity로 변경해준다.
+
         Member member = new Member(
                 newMember.getMemberId(),
                 newMember.getMemberPwd(),

@@ -10,6 +10,7 @@ public enum MemberRole {
     ROLE_MEMBER("회원"),
     ROLE_ADMIN("관리자");
 
+
     private final String description;
 
     MemberRole(String description) {
